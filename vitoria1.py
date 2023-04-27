@@ -19,6 +19,3 @@ print(mult)
 print(div)
 print(div2)
 print(resto)
-
-
-# sdfjsfjsbds
