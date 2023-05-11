@@ -174,20 +174,9 @@ def hexletters(st):
     else:
         return st
 
-# print(binaryDecimal(11011000011))
-# print(binaryOctal(1111111))
-# print(binaryHex(1111111))
-# print(decimalBinary(463))
-# print(decimalOctal(127))
-# print(decimalHex(127))
-# print(octalDecimal(177))
-# print(octalHex(177))
-# print(octalBinary(177))
-# print(hexBinary('7F'))
-# print(hexDecimal('7F'))
-# print(hexOctal('7F'))
 
-print("*"*10+"CONVERSOR DE SISTEMAS NUMÉRICOS"+"*"*10+"\n"+"-"*51)
+texto = "CONVERSOR DE SISTEMAS NUMÉRICOS"
+print(f"{texto:*^50}")
 
 base = input('Digite a base do número a ser convertido: ')
 numero = input('Digite o número a ser convertido: ')
